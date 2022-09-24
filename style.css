@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    /* background-image: url(./img/news-corporate-background-blue-abstract-business-concept-free-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: white;
+    font-family: Georgia, serif;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/exciting-rms-news-connect-and-api.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:calc(100vw) ;
+    height: calc(40vh);
+
+}
+h1{
+    font-size: 50px;
+    font-style: italic;
+    /* font:lighter; */
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    height: 50px;
+    width: calc(100vw);
+    background-color: rgb(44, 43, 43);
+}
+#nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px ;
+    background-color: rgb(43, 42, 42);
+}
+#nav a:hover{
+    background-color: rgba(104, 101, 101, 0.658);
+}
+#test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(36, 35, 35, 0.4);
+    /* padding: 80px 400px 80px 400px; */
+    width:calc(100vw) ;
+    height: calc(40vh);
+}
+figure img{
+    height: calc(40vh);
+    width: calc(50vw);
+    border-radius: 20px;
+}
+#set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#left{
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: calc(40vw);
+}
+
+#main{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height:calc(100vh);
+    overflow: scroll; */
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.344);
+    padding: 30px;
+    width: calc(60vw);
+}
+#main a{
+    text-decoration: none;
+    color: red;
+}
+
+
+#main1{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height:calc(100vh);
+    overflow: scroll; */
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.344);
+    padding: 30px;
+    width: calc(60vw);
+}
+#main1 a{
+    text-decoration: none;
+    color: red;
+}
